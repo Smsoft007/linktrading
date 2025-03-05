@@ -1,0 +1,8 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "cursor.composer.shouldShowMarkdownHoverParticipantActions2": true,
+    "cursor.cpp.enablePartialAccepts": true,
+    "window.closeWhenEmpty": true,
+    "window.autoDetectColorScheme": true,
+    "accessibility.signalOptions.debouncePositionChanges": true
+}

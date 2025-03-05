@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="400" height="400" fill="#1A202C" rx="10" ry="10"/>
+  
+  <!-- 차트 제목 -->
+  <text x="200" y="40" fill="white" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">
+    2024 암호화폐 시장 점유율
+  </text>
+  
+  <!-- 원형 차트 -->
+  <g transform="translate(200, 200)">
+    <!-- 비트코인 (42%) -->
+    <path d="M0,0 L0,-120 A120,120 0 0,1 109.28,49.2 z" fill="#F7931A"/>
+    
+    <!-- 이더리움 (19%) -->
+    <path d="M0,0 L109.28,49.2 A120,120 0 0,1 22.8,118.2 z" fill="#627EEA"/>
+    
+    <!-- 스테이블코인 (USDT/USDC) (15%) -->
+    <path d="M0,0 L22.8,118.2 A120,120 0 0,1 -74.4,93.6 z" fill="#26A17B"/>
+    
+    <!-- BNB (7%) -->
+    <path d="M0,0 L-74.4,93.6 A120,120 0 0,1 -113.4,38.4 z" fill="#F3BA2F"/>
+    
+    <!-- XRP (5%) -->
+    <path d="M0,0 L-113.4,38.4 A120,120 0 0,1 -113.4,-38.4 z" fill="#23292F"/>
+    
+    <!-- 기타 (12%) -->
+    <path d="M0,0 L-113.4,-38.4 A120,120 0 0,1 0,-120 z" fill="#8247E5"/>
+  </g>
+  
+  <!-- 범례 -->
+  <g transform="translate(200, 350)">
+    <!-- 비트코인 -->
+    <rect x="-180" y="-30" width="15" height="15" fill="#F7931A"/>
+    <text x="-160" y="-18" fill="white" font-family="Arial" font-size="12">비트코인 (BTC) - 42%</text>
+    
+    <!-- 이더리움 -->
+    <rect x="-180" y="-10" width="15" height="15" fill="#627EEA"/>
+    <text x="-160" y="2" fill="white" font-family="Arial" font-size="12">이더리움 (ETH) - 19%</text>
+    
+    <!-- 스테이블코인 -->
+    <rect x="-180" y="10" width="15" height="15" fill="#26A17B"/>
+    <text x="-160" y="22" fill="white" font-family="Arial" font-size="12">스테이블코인 - 15%</text>
+    
+    <!-- BNB -->
+    <rect x="20" y="-30" width="15" height="15" fill="#F3BA2F"/>
+    <text x="40" y="-18" fill="white" font-family="Arial" font-size="12">바이낸스 코인 (BNB) - 7%</text>
+    
+    <!-- XRP -->
+    <rect x="20" y="-10" width="15" height="15" fill="#23292F"/>
+    <text x="40" y="2" fill="white" font-family="Arial" font-size="12">리플 (XRP) - 5%</text>
+    
+    <!-- 기타 -->
+    <rect x="20" y="10" width="15" height="15" fill="#8247E5"/>
+    <text x="40" y="22" fill="white" font-family="Arial" font-size="12">기타 - 12%</text>
+  </g>
+</svg> 
