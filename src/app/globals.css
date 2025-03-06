@@ -1,125 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:where([class^="ri-"])::before { content: "\f3c2"; }
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
 
-@layer base {
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
-    --radius: 0.75rem;
-  }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-  }
-
-  body {
-    @apply bg-gray-950 min-h-screen;
+    --background: #0a0a0a;
+    --foreground: #ededed;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-}
-
-@layer components {
-  /* 버튼 스타일 */
-  .btn {
-    @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300;
-  }
-
-  .btn-primary {
-    @apply bg-blue-500 text-white hover:bg-blue-600;
-  }
-
-  .btn-secondary {
-    @apply bg-purple-500 text-white hover:bg-purple-600;
-  }
-
-  /* 배경 이미지 */
-  .hero-pattern {
-    background-color: rgba(17, 24, 39, 1);
-    background-image: 
-      radial-gradient(at 47% 33%, rgba(59, 130, 246, 0.15) 0, transparent 59%), 
-      radial-gradient(at 82% 65%, rgba(147, 51, 234, 0.15) 0, transparent 55%);
-  }
-
-  .rounded-button {
-    @apply rounded-lg;
-  }
-}
-
-@layer utilities {
-  /* 애니메이션 */
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-
-  @keyframes float-slow {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-
-  .animate-float {
-    animation: float 3s ease-in-out infinite;
-  }
-
-  .animate-float-slow {
-    animation: float-slow 5s ease-in-out infinite;
-  }
-}
-
-.coin-card {
-  background: rgba(17, 24, 39, 0.9);
-  backdrop-filter: blur(10px);
-  color: #fff;
-  border: 1px solid rgba(75, 85, 99, 0.2);
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
 }
