@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 링크 봇 트레이딩 비즈니스
 
-## Getting Started
+암호화폐 시장에서의 고빈도 알고리즘 트레이딩을 위한 현대적인 웹 애플리케이션입니다.
 
-First, run the development server:
+## 프로젝트 개요
 
+링크 봇 트레이딩 비즈니스는 다음을 제공합니다:
+- 고빈도 알고리즘 트레이딩
+- 리스크 관리 기반의 투자 전략
+- 실시간 암호화폐 시장 데이터
+- 월 평균 30-40%의 예상 수익률
+
+## 주요 기능
+
+- 다크 테마의 현대적인 UI
+- 실시간 암호화폐 가격 표시
+- 투자 구조 및 수익 계산
+- 리스크 관리 전략 시각화
+- 프로젝트 로드맵
+- 주간 세미나 정보
+
+## 기술 스택
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- 데이터 시각화를 위한 Chart.js
+- React Icons
+
+## 시작하기
+
+### 필수 조건
+
+- Node.js 16.x 이상
+- npm 또는 yarn
+
+### 설치
+
+1. 저장소 복제
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/linktrading.git
+cd linktrading
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 의존성 설치
+```bash
+npm install
+# 또는
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. 개발 서버 실행
+```bash
+npm run dev
+# 또는
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. 브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 애플리케이션을 확인하세요.
 
-## Learn More
+## 프로젝트 구조
 
-To learn more about Next.js, take a look at the following resources:
+- `/src/app` - Next.js 앱 라우터 페이지
+- `/src/components` - 재사용 가능한 React 컴포넌트
+- `/src/styles` - 전역 스타일 및 Tailwind 구성
+- `/public` - 정적 자산
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 라이센스
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2024 링크 봇 트레이딩 비즈니스. 모든 권리 보유. 

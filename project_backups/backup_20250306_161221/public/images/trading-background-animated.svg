@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 어두운 배경 -->
+  <rect width="1920" height="1080" fill="#0A1128"/>
+  
+  <!-- 그라데이션 배경 -->
+  <rect width="1920" height="1080" fill="url(#paint0_radial)" opacity="0.7"/>
+  
+  <!-- 그리드 라인 -->
+  <g opacity="0.15">
+    <path d="M0 100H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 200H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 300H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 400H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 500H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 600H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 700H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 800H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 900H1920" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M0 1000H1920" stroke="#4A88FF" stroke-width="1"/>
+    
+    <path d="M100 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M200 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M300 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M400 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M500 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M600 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M700 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M800 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M900 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1000 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1100 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1200 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1300 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1400 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1500 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1600 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1700 0V1080" stroke="#4A88FF" stroke-width="1"/>
+    <path d="M1800 0V1080" stroke="#4A88FF" stroke-width="1"/>
+  </g>
+  
+  <!-- 차트 라인 1 - 상승 (녹색) -->
+  <path d="M0 800 L100 780 L200 790 L300 750 L400 720 L500 740 L600 700 L700 650 L800 630 L900 600 L1000 580 L1100 550 L1200 520 L1300 480 L1400 450 L1500 420 L1600 400 L1700 380 L1800 350 L1920 320" stroke="#4ADE80" stroke-width="3" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- 차트 라인 2 - 하락 (빨간색) -->
+  <path d="M0 400 L100 420 L200 450 L300 470 L400 500 L500 520 L600 550 L700 580 L800 600 L900 630 L1000 650 L1100 680 L1200 700 L1300 720 L1400 750 L1500 780 L1600 800 L1700 820 L1800 850 L1920 880" stroke="#EF4444" stroke-width="3" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="4s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- 차트 라인 3 - 중립 (파란색) -->
+  <path d="M0 600 L100 620 L200 610 L300 630 L400 620 L500 600 L600 590 L700 610 L800 600 L900 580 L1000 590 L1100 600 L1200 610 L1300 590 L1400 580 L1500 600 L1600 610 L1700 590 L1800 580 L1920 600" stroke="#3B82F6" stroke-width="3" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.6;0.8" dur="5s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- 캔들스틱 차트 요소들 -->
+  <g opacity="0.8">
+    <!-- 캔들 1 (상승) -->
+    <rect x="200" y="300" width="20" height="80" fill="#4ADE80" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+    </rect>
+    <line x1="210" y1="280" x2="210" y2="300" stroke="#4ADE80" stroke-width="2"/>
+    <line x1="210" y1="380" x2="210" y2="400" stroke="#4ADE80" stroke-width="2"/>
+    
+    <!-- 캔들 2 (하락) -->
+    <rect x="400" y="350" width="20" height="60" fill="#EF4444" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <line x1="410" y1="330" x2="410" y2="350" stroke="#EF4444" stroke-width="2"/>
+    <line x1="410" y1="410" x2="410" y2="430" stroke="#EF4444" stroke-width="2"/>
+    
+    <!-- 캔들 3 (상승) -->
+    <rect x="600" y="320" width="20" height="70" fill="#4ADE80" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
+    </rect>
+    <line x1="610" y1="300" x2="610" y2="320" stroke="#4ADE80" stroke-width="2"/>
+    <line x1="610" y1="390" x2="610" y2="410" stroke="#4ADE80" stroke-width="2"/>
+    
+    <!-- 캔들 4 (하락) -->
+    <rect x="800" y="360" width="20" height="50" fill="#EF4444" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite" />
+    </rect>
+    <line x1="810" y1="340" x2="810" y2="360" stroke="#EF4444" stroke-width="2"/>
+    <line x1="810" y1="410" x2="810" y2="430" stroke="#EF4444" stroke-width="2"/>
+    
+    <!-- 캔들 5 (상승) -->
+    <rect x="1000" y="310" width="20" height="90" fill="#4ADE80" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite" />
+    </rect>
+    <line x1="1010" y1="290" x2="1010" y2="310" stroke="#4ADE80" stroke-width="2"/>
+    <line x1="1010" y1="400" x2="1010" y2="420" stroke="#4ADE80" stroke-width="2"/>
+    
+    <!-- 캔들 6 (하락) -->
+    <rect x="1200" y="370" width="20" height="40" fill="#EF4444" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.2s" repeatCount="indefinite" />
+    </rect>
+    <line x1="1210" y1="350" x2="1210" y2="370" stroke="#EF4444" stroke-width="2"/>
+    <line x1="1210" y1="410" x2="1210" y2="430" stroke="#EF4444" stroke-width="2"/>
+    
+    <!-- 캔들 7 (상승) -->
+    <rect x="1400" y="330" width="20" height="60" fill="#4ADE80" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.7s" repeatCount="indefinite" />
+    </rect>
+    <line x1="1410" y1="310" x2="1410" y2="330" stroke="#4ADE80" stroke-width="2"/>
+    <line x1="1410" y1="390" x2="1410" y2="410" stroke="#4ADE80" stroke-width="2"/>
+    
+    <!-- 캔들 8 (하락) -->
+    <rect x="1600" y="350" width="20" height="70" fill="#EF4444" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.7s" repeatCount="indefinite" />
+    </rect>
+    <line x1="1610" y1="330" x2="1610" y2="350" stroke="#EF4444" stroke-width="2"/>
+    <line x1="1610" y1="420" x2="1610" y2="440" stroke="#EF4444" stroke-width="2"/>
+  </g>
+  
+  <!-- 데이터 포인트 -->
+  <g opacity="0.8">
+    <circle cx="200" cy="500" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="400" cy="550" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="480" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="800" cy="520" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="490" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1200" cy="530" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="3.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1400" cy="470" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="2.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1600" cy="510" r="3" fill="#3B82F6">
+      <animate attributeName="r" values="3;5;3" dur="3.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- 반짝이는 점들 (별처럼) -->
+  <g>
+    <circle cx="150" cy="150" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="250" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="550" cy="150" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="350" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="250" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1150" cy="150" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1350" cy="350" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1550" cy="250" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1750" cy="150" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="250" cy="450" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="550" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="650" cy="450" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="850" cy="650" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="550" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1250" cy="450" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1450" cy="650" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1650" cy="550" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1850" cy="450" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="750" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="850" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="550" cy="750" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="950" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="850" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1150" cy="750" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1350" cy="950" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1550" cy="850" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1750" cy="750" r="1" fill="white">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- 그라데이션 정의 -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 540) rotate(90) scale(540 960)">
+      <stop stop-color="#1E40AF" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0A1128" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="500" height="300" fill="#1A202C" rx="10" ry="10"/>
+  
+  <!-- 차트 제목 -->
+  <text x="250" y="30" fill="white" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">
+    2024 암호화폐 시장 트렌드
+  </text>
+  
+  <!-- 그리드 라인 -->
+  <g stroke="#2D3748" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="80" y1="60" x2="80" y2="240"/>
+    <line x1="80" y1="240" x2="450" y2="240"/>
+    <line x1="80" y1="60" x2="450" y2="60"/>
+    <line x1="80" y1="120" x2="450" y2="120"/>
+    <line x1="80" y1="180" x2="450" y2="180"/>
+  </g>
+  
+  <!-- Y축 레이블 -->
+  <g fill="#A0AEC0" font-family="Arial" font-size="12">
+    <text x="70" y="60" text-anchor="end">50%</text>
+    <text x="70" y="120" text-anchor="end">30%</text>
+    <text x="70" y="180" text-anchor="end">10%</text>
+    <text x="70" y="240" text-anchor="end">0%</text>
+  </g>
+  
+  <!-- 막대 그래프 -->
+  <g>
+    <!-- 스테이블코인 성장 -->
+    <rect x="120" y="120" width="40" height="120" fill="url(#blueGradient)" rx="5" ry="5"/>
+    <text x="140" y="260" fill="#A0AEC0" font-family="Arial" font-size="12" text-anchor="middle">스테이블코인</text>
+    <text x="140" y="110" fill="white" font-family="Arial" font-size="12" text-anchor="middle">32%</text>
+    
+    <!-- 디지털 자산 금융상품 -->
+    <rect x="220" y="90" width="40" height="150" fill="url(#purpleGradient)" rx="5" ry="5"/>
+    <text x="240" y="260" fill="#A0AEC0" font-family="Arial" font-size="12" text-anchor="middle">금융상품</text>
+    <text x="240" y="80" fill="white" font-family="Arial" font-size="12" text-anchor="middle">45%</text>
+    
+    <!-- 전통 금융의 수용 -->
+    <rect x="320" y="130" width="40" height="110" fill="url(#greenGradient)" rx="5" ry="5"/>
+    <text x="340" y="260" fill="#A0AEC0" font-family="Arial" font-size="12" text-anchor="middle">전통 금융</text>
+    <text x="340" y="120" fill="white" font-family="Arial" font-size="12" text-anchor="middle">28%</text>
+    
+    <!-- 기관 투자자 참여 -->
+    <rect x="420" y="100" width="40" height="140" fill="url(#orangeGradient)" rx="5" ry="5"/>
+    <text x="440" y="260" fill="#A0AEC0" font-family="Arial" font-size="12" text-anchor="middle">기관 투자</text>
+    <text x="440" y="90" fill="white" font-family="Arial" font-size="12" text-anchor="middle">40%</text>
+  </g>
+  
+  <!-- 그라데이션 정의 -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3182CE"/>
+      <stop offset="100%" stop-color="#2C5282"/>
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#805AD5"/>
+      <stop offset="100%" stop-color="#553C9A"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38A169"/>
+      <stop offset="100%" stop-color="#276749"/>
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DD6B20"/>
+      <stop offset="100%" stop-color="#9C4221"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 차트 설명 -->
+  <text x="250" y="290" fill="#A0AEC0" font-family="Arial" font-size="12" text-anchor="middle">
+    2024년 주요 암호화폐 시장 트렌드 성장률
+  </text>
+</svg> 

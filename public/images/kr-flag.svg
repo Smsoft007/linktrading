@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="512" height="512" rx="256" fill="white"/>
+  
+  <!-- 태극 문양 -->
+  <path d="M256 384C325.647 384 382 327.647 382 258C382 188.353 325.647 132 256 132C186.353 132 130 188.353 130 258C130 327.647 186.353 384 256 384Z" fill="white"/>
+  <path d="M256 384C325.647 384 382 327.647 382 258C382 188.353 325.647 132 256 132C186.353 132 130 188.353 130 258C130 327.647 186.353 384 256 384Z" fill="white"/>
+  
+  <!-- 빨간색 부분 -->
+  <path d="M256 258C256 188.353 325.647 132 256 132C186.353 132 130 188.353 130 258C130 327.647 186.353 384 256 384C325.647 384 256 327.647 256 258Z" fill="#CD2E3A"/>
+  
+  <!-- 파란색 부분 -->
+  <path d="M256 258C256 327.647 325.647 384 256 384C186.353 384 130 327.647 130 258C130 188.353 186.353 132 256 132C325.647 132 256 188.353 256 258Z" fill="#0047A0"/>
+  
+  <!-- 건괘 (☰) -->
+  <rect x="349" y="154" width="70" height="12" rx="2" fill="black"/>
+  <rect x="349" y="178" width="70" height="12" rx="2" fill="black"/>
+  <rect x="349" y="202" width="70" height="12" rx="2" fill="black"/>
+  
+  <!-- 곤괘 (☷) -->
+  <rect x="93" y="298" width="70" height="12" rx="2" fill="black"/>
+  <rect x="93" y="322" width="70" height="12" rx="2" fill="black"/>
+  <rect x="93" y="346" width="70" height="12" rx="2" fill="black"/>
+  
+  <!-- 감괘 (☵) -->
+  <rect x="93" y="154" width="70" height="12" rx="2" fill="black"/>
+  <rect x="93" y="178" width="30" height="12" rx="2" fill="black"/>
+  <rect x="133" y="178" width="30" height="12" rx="2" fill="black"/>
+  <rect x="93" y="202" width="70" height="12" rx="2" fill="black"/>
+  
+  <!-- 이괘 (☲) -->
+  <rect x="349" y="298" width="70" height="12" rx="2" fill="black"/>
+  <rect x="349" y="322" width="30" height="12" rx="2" fill="black"/>
+  <rect x="389" y="322" width="30" height="12" rx="2" fill="black"/>
+  <rect x="349" y="346" width="70" height="12" rx="2" fill="black"/>
+</svg>
